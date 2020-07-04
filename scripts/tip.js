@@ -1,4 +1,4 @@
-<script type="text/javascript">
+
 //Calculate Tip
 function calculateTip() {
 var bill = document.getElementById("bill").value;
