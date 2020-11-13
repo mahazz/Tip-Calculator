@@ -1,120 +1,127 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 body {
-    background: rgb(143, 46, 135);
-  }
-  
-  #container {
-    height: 525px;
-    width: 700px;
-    margin: 100px auto;
-    background: #ccbdc9;
-    border-radius: 10px;
-  }
-  
-  h1 {
-    background: rgb(34, 33, 34);
-    color: white;
-    margin: 0;
-    padding: 10px 100px;
-    text-align: center;
-    font-size: 18px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-  }
-  
-  p {
-    padding-left: 20px;
-  }
-  
-  form input[type="text"] {
-    width:50px;
-  }
-  
-  input {
-    padding-left: 20px;
-    width: 31%;
-  }
-  
-  #bill {
-    font-size: 14px;
-    width: 31%;
-    color: #red;
-    background-color: #f7f7f7;
-    padding: 5px 5px 8px 8px;
-    margin-left: 20px;
-  
-  }
-  
-  #bill:focus {
-    background: #fff;
-    border: 3px solid #2980b9;
-    outline: none;
-  }
-  
-  #people {
-    padding: 5px 5px 8px 8px;
-    margin-left: 20px;
-    color: #red;
-    background-color: #f7f7f7;
-    font-size: 14px;
-  }
-  
-  .dollarSign {
-    display: inline;
-  }
-  
-  #tip {
-    padding: 5px 5px 8px 8px;
-    margin-left: 20px;
-    font-size: 15px;
-    border-color: #888888;
-    width: 34%;
-    color: #888888;
-  
-  }
-  
-  button {
-    display: block;
-    margin: 30px 20px;
-    background: rgb(221, 25, 74);
-    border-radius: 5px;
-    width: 150px;
-    height: 50px;
-    font-size: 17px;
-    color: white;
-  }
-  
-  button:hover {
-    background: rgb(170, 40, 72);
-  }
-  
-  button:active {
-    position: relative;
-    top: 1px;
-  }
-  
-  #tip-per-person {
-      font-size: 30px;
-      margin-right: 105px;
-      text-align: center;
-      display: inline-block;
-      float: right;
-  }
-  
-  #tip-per-person:before {
-    content: "Tip per person";
-    font-size: 20px;
-    font-weight: bold;
-    display: block;
-  }
-  
-  #tip-per-person sup {
-    font-size: 20px;
-    top: -18px;
-  }
-  
-  #tip-per-person small {
-    font-size: 20px;
-    font-weight: bold;
-    display: block;
-  }
-  
+  background: #bbbfca;
+}
+
+#container {
+  height: 525px;
+  width: 700px;
+  margin: 100px auto;
+  background: #e8e8e8;
+  border-radius: 10px;
+}
+
+h1 {
+  background: rgb(34, 33, 34);
+  color: white;
+  margin: 0;
+  padding: 10px 100px;
+  text-align: center;
+  font-size: 18px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+p {
+  padding-left: 20px;
+}
+
+form {
+  margin-top: 67px;
+}
+
+form input[type="text"] {
+  width: 50px;
+}
+
+input {
+  padding-left: 20px;
+  width: 31%;
+  border-radius: 6px;
+}
+
+#bill {
+  font-size: 14px;
+  width: 31%;
+  color: #356379;
+  background-color: #f7f7f7;
+  padding: 5px 5px 8px 8px;
+  margin-left: 20px;
+}
+
+#bill:focus {
+  background: #fff;
+  border: 3px solid #2980b9;
+  outline: none;
+}
+
+#people {
+  padding: 5px 5px 8px 8px;
+  margin-left: 20px;
+  color: #356379;
+  background-color: #f7f7f7;
+  font-size: 14px;
+}
+
+.dollarSign {
+  display: inline;
+}
+
+#tip {
+  padding: 5px 5px 8px 8px;
+  margin-left: 20px;
+  font-size: 15px;
+  border-color: #888888;
+  width: 34%;
+  color: #888888;
+  border-radius: 6px;
+}
+
+button {
+  display: block;
+  margin: 30px 20px;
+  background: #214252;
+  border-radius: 5px;
+  width: 150px;
+  height: 50px;
+  font-size: 17px;
+  color: white;
+}
+
+button:hover {
+  background: #356379;
+}
+
+button:active {
+  position: relative;
+  top: 1px;
+}
+
+#tip-per-person {
+  font-size: 30px;
+  margin-right: 105px;
+  text-align: center;
+  display: inline-block;
+  float: right;
+}
+
+#tip-per-person:before {
+  content: "Tip per person";
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+}
+
+#tip-per-person sup {
+  font-size: 20px;
+  top: -18px;
+}
+
+#tip-per-person small {
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+}
